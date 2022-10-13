@@ -1,0 +1,8 @@
+years = int(input("время на просмотр"))
+print("Кол-во экспонатов:", years * 365 * 8 * 60 // 5)
+
+mantain = int(input("нужные экспонаты"))
+
+alltime = mantain * 5
+
+print(alltime,"минут")
